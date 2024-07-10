@@ -13,8 +13,8 @@ C 프로그램 완성과정 : 프로그램 작성  > 컴파일 > **에러발생*
 6. **scanf**("**%d**(10진수 형태로 받기= double)" &num); (scanf 라고 입력시 오류 발생 >> scanf_s or #define_CRT_SECURE_NO_WARNINGS 입력 후 사용),
 7. **printf**("%d(10진수 형태로 출력)\n" num);
 8. **return 0**; >> 함수의 끝을 알림
-**9. scanf의 변수 앞에 & 사용하는 이유 : num 이라는 변수가 존재하는 주소값(포인터), 변수가 정해졌을 때 주소가 랜덤 배정이 되고, scanf 로 변수를 입력 받았을 때 해당 주소로 변수를 보내서 지정해주는 역할을 함. 결국 &num은 num의 주소를 뜻하는 것이므로 printf에서는 사용하지 않아도 됨**
-[https://wikidocs.net/86244](https://blog.naver.com/semi_conductor/223363901073)
+9. **scanf의 변수 앞에 & 사용하는 이유 : num 이라는 변수가 존재하는 주소값(포인터), 변수가 정해졌을 때 주소가 랜덤 배정이 되고, scanf 로 변수를 입력 받았을 때 해당 주소로 변수를 보내서 지정해주는 역할을 함. 결국 &num은 num의 주소를 뜻하는 것이므로 printf에서는 사용하지 않아도 됨**
+[https://wikidocs.net/86244] (https://blog.naver.com/semi_conductor/223363901073)
 
 #C언어 연산자
 
